@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=gcoin
+Comment=gcoin P2P Cryptocurrency
+Comment[fr]=gcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=gcoin, eşten eşe kriptografik sanal para birimi
+Exec=gcoin-qt %u
+Terminal=false
+Type=Application
+Icon=gcoin128
+MimeType=x-scheme-handler/gcoin;
+Categories=Office;Finance;

@@ -1,0 +1,26 @@
+[Unit]
+Description=gcoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=gcoin
+Group=gcoin
+
+Type=forking
+PIDFile=/var/lib/gcoind/gcoind.pid
+
+ExecStart=/usr/bin/gcoind -daemon -pid=/var/lib/gcoind/gcoind.pid \
+          -conf=/etc/gcoin/gcoin.conf -datadir=/var/lib/gcoind
+
+ExecStop=-/usr/bin/gcoin-cli -conf=/etc/gcoin/gcoin.conf \
+         -datadir=/var/lib/gcoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -381,7 +381,7 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 5 * 60; //
+        nTargetTimespan = 1 * 60; //
         nTargetSpacing = 1 * 60;  // kaishen: 1 minute
         nLastPOWBlock = 20000;
         nMaturity = 6;
@@ -444,7 +444,7 @@ public:
         assert(hashGenesisBlock == uint256("0x801fe92b3ff1c40097a5aa15e57c0dd8a382d8138e610efde5b2b989ca8c2331"));
         //assert(genesis.hashMerkleRoot == uint256("0x83d7618987a3d26b2ad11364d08303f5da3e20e2c00be086d30c90c655cda808"));
 
-        vSeeds.push_back(CDNSSeedData("209.126.85.111","209.126.85.111"));     // Primary DNS Seeder 
+        vSeeds.push_back(CDNSSeedData("66.29.144.164","66.29.144.164"));     // Primary DNS Seeder 
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 64);

@@ -227,8 +227,8 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this gcoin address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres gcoin jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this kaishen address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres kaishen jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -518,16 +518,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>gcoin Core</source>
+        <source>kaishen Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     <message>
-        <source>Send coins to a gcoin address</source>
-        <translation>Wyślij monety do adresu gcoin</translation>
+        <source>Send coins to a kaishen address</source>
+        <translation>Wyślij monety do adresu kaishen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and gcoin: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i gcoin:URI)</translation>
+        <source>Request payments (generates QR codes and kaishen: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i kaishen:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -538,24 +538,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About gcoin Core</source>
+        <source>&amp;About kaishen Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about gcoin Core</source>
+        <source>Show information about kaishen Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for gcoin</source>
-        <translation>Modyfikuj opcje konfiguracji gcoin</translation>
+        <source>Modify configuration options for kaishen</source>
+        <translation>Modyfikuj opcje konfiguracji kaishen</translation>
     </message>
     <message>
-        <source>Sign messages with your gcoin addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami gcoin, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your kaishen addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami kaishen, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified gcoin addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu gcoin</translation>
+        <source>Verify messages to ensure they were signed with specified kaishen addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu kaishen</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -582,8 +582,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a gcoin: URI or payment request</source>
-        <translation>Otwórz gcoin: URI i żądanie zapłaty</translation>
+        <source>Open a kaishen: URI or payment request</source>
+        <translation>Otwórz kaishen: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -594,12 +594,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the gcoin Core help message to get a list with possible gcoin command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia gcoin, aby dostać listę możliwych opcji gcoin command-line</translation>
+        <source>Show the kaishen Core help message to get a list with possible kaishen command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia kaishen, aby dostać listę możliwych opcji kaishen command-line</translation>
     </message>
     <message>
-        <source>gcoin Core client</source>
-        <translation>Rdzeń gcoin klient</translation>
+        <source>kaishen Core client</source>
+        <translation>Rdzeń kaishen klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -916,7 +916,7 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>gcoin Core</source>
+        <source>kaishen Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     </context>
@@ -931,7 +931,7 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>gcoin Core</source>
+        <source>kaishen Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     <message>
@@ -1192,16 +1192,16 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start gcoin after logging in to the system.</source>
-        <translation>Automatycznie uruchom gcoin po zalogowaniu do systemu</translation>
+        <source>Automatically start kaishen after logging in to the system.</source>
+        <translation>Automatycznie uruchom kaishen po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start gcoin on system login</source>
-        <translation>&amp;Uruchom gcoin podczas logowania do systemu</translation>
+        <source>&amp;Start kaishen on system login</source>
+        <translation>&amp;Uruchom kaishen podczas logowania do systemu</translation>
     </message>
     <message>
-        <source>Amount of gcoin to keep anonymized</source>
-        <translation>Liczba gcoin do anonimizacji</translation>
+        <source>Amount of kaishen to keep anonymized</source>
+        <translation>Liczba kaishen do anonimizacji</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1220,18 +1220,18 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting gcoin.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie gcoin</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting kaishen.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie kaishen</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/gcoin-project/gcoin-project-translations</source>
+https://www.transifex.com/kaishen-project/kaishen-project-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/gcoin-project/gcoin-project-translations </translation>
+https://www.transifex.com/kaishen-project/kaishen-project-translations </translation>
     </message>
     <message>
-        <source>Connect to the gcoin network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią gcoin poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the kaishen network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią kaishen poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1458,8 +1458,8 @@ https://www.transifex.com/gcoin-project/gcoin-project-translations </translation
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a gcoin address (e.g. %1)</source>
-        <translation>Wprowadź adres gcoin (np. %1)</translation>
+        <source>Enter a kaishen address (e.g. %1)</source>
+        <translation>Wprowadź adres kaishen (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1897,8 +1897,8 @@ https://www.transifex.com/gcoin-project/gcoin-project-translations </translation
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this gcoin address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres gcoin jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this kaishen address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres kaishen jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1932,7 +1932,7 @@ https://www.transifex.com/gcoin-project/gcoin-project-translations </translation
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>gcoin Core</source>
+        <source>kaishen Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     </context>
@@ -2024,7 +2024,7 @@ https://www.transifex.com/gcoin-project/gcoin-project-translations </translation
     </message>
     </context>
 <context>
-    <name>gcoin-core</name>
+    <name>kaishen-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

@@ -46,10 +46,10 @@ static bool AppInitRawTx(int argc, char* argv[])
 
     if (argc < 2 || mapArgs.count("-?") || mapArgs.count("-help")) {
         // First part of help message is specific to this utility
-        std::string strUsage = _("gcoin Core gcoin-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("kaishen Core kaishen-tx utility version") + " " + FormatFullVersion() + "\n\n" +
                                _("Usage:") + "\n" +
-                               "  gcoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded gcoin transaction") + "\n" +
-                               "  gcoin-tx [options] -create [commands]   " + _("Create hex-encoded gcoin transaction") + "\n" +
+                               "  kaishen-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded kaishen transaction") + "\n" +
+                               "  kaishen-tx [options] -create [commands]   " + _("Create hex-encoded kaishen transaction") + "\n" +
                                "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());
@@ -550,7 +550,7 @@ static int CommandLineRawTx(int argc, char* argv[])
             if (argc < 2)
                 throw runtime_error("too few parameters");
 
-            // param: hex-encoded gcoin transaction
+            // param: hex-encoded kaishen transaction
             string strHexTx(argv[1]);
             if (strHexTx == "-") // "-" implies standard input
                 strHexTx = readStdin();

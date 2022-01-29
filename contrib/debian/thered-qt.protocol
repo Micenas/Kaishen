@@ -1,6 +1,6 @@
 [Protocol]
-exec=gcoin-qt '%u'
-protocol=gcoin
+exec=kaishen-qt '%u'
+protocol=kaishen
 input=none
 output=none
 helper=true

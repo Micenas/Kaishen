@@ -260,6 +260,6 @@
     </message>
     </context>
 <context>
-    <name>gcoin-core</name>
+    <name>kaishen-core</name>
     </context>
 </TS>

@@ -95,7 +95,7 @@ public:
 };
 
 /**
- * gcoin RPC command dispatcher.
+ * kaishen RPC command dispatcher.
  */
 class CRPCTable
 {

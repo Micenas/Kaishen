@@ -62,12 +62,12 @@
         <translation>Ontvangstadressen</translation>
     </message>
     <message>
-        <source>These are your gcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw gcoinadressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
+        <source>These are your kaishen addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw kaishenadressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
     </message>
     <message>
-        <source>These are your gcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw gcoinadressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <source>These are your kaishen addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit zijn uw kaishenadressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,8 +168,8 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>gcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
-        <translation>gcoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw PIEs stelen.</translation>
+        <source>kaishen will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
+        <translation>kaishen zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw PIEs stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -231,16 +231,16 @@
         <translation>&amp;BIP 38 Versleuteling</translation>
     </message>
     <message>
-        <source>Enter a gcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Voer een gcoin adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
+        <source>Enter a kaishen Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Voer een kaishen adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adres:</translation>
     </message>
     <message>
-        <source>The gcoin address to sign the message with</source>
-        <translation>Het gcoin adres om het bericht met te ondertekenen</translation>
+        <source>The kaishen address to sign the message with</source>
+        <translation>Het kaishen adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -271,8 +271,8 @@
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this gcoin address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het gcoin adres bezit</translation>
+        <source>Sign the message to prove you own this kaishen address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het kaishen adres bezit</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -295,12 +295,12 @@
         <translation>Voer de BIP 38 versleutelde geheime sleutel in. Voer het wachtwoord in, in het middelste veld. Druk op Ontsleutelen Sleutel om de geheime sleutel te berekenen.  Nadat de geheime sleutel is ontsleuteld, zal het klikken op 'Adres Importeren' de geheime sleutel toevoegen aan de portemonnee.</translation>
     </message>
     <message>
-        <source>The gcoin address the message was signed with</source>
-        <translation>Het gcoin adres waarmee het bericht was ondertekend</translation>
+        <source>The kaishen address the message was signed with</source>
+        <translation>Het kaishen adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified gcoin address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde gcoin adres</translation>
+        <source>Verify the message to ensure it was signed with the specified kaishen address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde kaishen adres</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -590,16 +590,16 @@
         <translation>Tabblad werkbalk</translation>
     </message>
     <message>
-        <source>gcoin Core</source>
-        <translation>gcoin Kern</translation>
+        <source>kaishen Core</source>
+        <translation>kaishen Kern</translation>
     </message>
     <message>
-        <source>Send coins to a gcoin address</source>
-        <translation>Verstuur munten naar een gcoin adres</translation>
+        <source>Send coins to a kaishen address</source>
+        <translation>Verstuur munten naar een kaishen adres</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and gcoin: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR-codes en gcoin: URI's)</translation>
+        <source>Request payments (generates QR codes and kaishen: URIs)</source>
+        <translation>Vraag betaling aan (genereert QR-codes en kaishen: URI's)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -610,24 +610,24 @@
         <translation>Bekijk masternodes</translation>
     </message>
     <message>
-        <source>&amp;About gcoin Core</source>
-        <translation>&amp;Over gcoin Kern</translation>
+        <source>&amp;About kaishen Core</source>
+        <translation>&amp;Over kaishen Kern</translation>
     </message>
     <message>
-        <source>Show information about gcoin Core</source>
-        <translation>Toon informatie over gcoin Kern</translation>
+        <source>Show information about kaishen Core</source>
+        <translation>Toon informatie over kaishen Kern</translation>
     </message>
     <message>
-        <source>Modify configuration options for gcoin</source>
-        <translation>Wijzig gcoin configuratie opties</translation>
+        <source>Modify configuration options for kaishen</source>
+        <translation>Wijzig kaishen configuratie opties</translation>
     </message>
     <message>
-        <source>Sign messages with your gcoin addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw gcoin adressen om te bewijzen dat u deze adressen bezit</translation>
+        <source>Sign messages with your kaishen addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw kaishen adressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified gcoin addresses</source>
-        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde gcoin adressen</translation>
+        <source>Verify messages to ensure they were signed with specified kaishen addresses</source>
+        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde kaishen adressen</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -757,8 +757,8 @@
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (gcoin.conf).</source>
-        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (gcoin.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (kaishen.conf).</source>
+        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (kaishen.conf).</translation>
     </message>
 </context>
 <context>
@@ -942,8 +942,8 @@
         <translation>Wijzig verzendadres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid gcoin address.</source>
-        <translation>Het ingevoerde adres: "%1" is geen geldig gcoin adres.</translation>
+        <source>The entered address "%1" is not a valid kaishen address.</source>
+        <translation>Het ingevoerde adres: "%1" is geen geldig kaishen adres.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -964,8 +964,8 @@
         <translation>versie</translation>
     </message>
     <message>
-        <source>gcoin Core</source>
-        <translation>gcoin Kern</translation>
+        <source>kaishen Core</source>
+        <translation>kaishen Kern</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -979,8 +979,8 @@
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>gcoin Core</source>
-        <translation>gcoin Kern</translation>
+        <source>kaishen Core</source>
+        <translation>kaishen Kern</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1426,15 +1426,15 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>gcoin Core is shutting down...</source>
-        <translation>gcoin Core is aan het afsluiten...</translation>
+        <source>kaishen Core is shutting down...</source>
+        <translation>kaishen Core is aan het afsluiten...</translation>
     </message>
     </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The gcoin address to sign the message with</source>
-        <translation>Het gcoin adres om het bericht met te ondertekenen</translation>
+        <source>The kaishen address to sign the message with</source>
+        <translation>Het kaishen adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1465,16 +1465,16 @@
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this gcoin address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het gcoin adres bezit</translation>
+        <source>Sign the message to prove you own this kaishen address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het kaishen adres bezit</translation>
     </message>
     <message>
-        <source>The gcoin address the message was signed with</source>
-        <translation>Het gcoin adres waarmee het bericht was ondertekend</translation>
+        <source>The kaishen address the message was signed with</source>
+        <translation>Het kaishen adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified gcoin address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde gcoin adres</translation>
+        <source>Verify the message to ensure it was signed with the specified kaishen address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde kaishen adres</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1512,8 +1512,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>gcoin Core</source>
-        <translation>gcoin Kern</translation>
+        <source>kaishen Core</source>
+        <translation>kaishen Kern</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1660,7 +1660,7 @@
     </message>
     </context>
 <context>
-    <name>gcoin-core</name>
+    <name>kaishen-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

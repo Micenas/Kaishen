@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: gcoind.service
-Upstart: gcoind.conf
-OpenRC:  gcoind.openrc
-         gcoind.openrcconf
-CentOS:  gcoind.init
+SystemD: kaishend.service
+Upstart: kaishend.conf
+OpenRC:  kaishend.openrc
+         kaishend.openrcconf
+CentOS:  kaishend.init
 
 have been made available to assist packagers in creating node packages here.
 

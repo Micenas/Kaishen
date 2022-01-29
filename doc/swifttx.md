@@ -11,9 +11,9 @@ When a "Transaction Lock" occurs the hash of the related transaction is broadcas
 * `zmqpubrawtxlock`: publishes the raw transaction when locked via SwiftTX
 * `zmqpubhashtxlock`: publishes the transaction hash when locked via SwiftTX
 
-This mechanism has been integrated into Bitcore-Node-gcoin which allows for notification to be broadcast through Insight API in one of two ways:
-* WebSocket: [https://github.com/gcoin-Project/insight-api-gcoin#web-socket-api](https://github.com/gcoin-Project/insight-api-gcoin#web-socket-api) 
-* API: [https://github.com/gcoin-Project/insight-api-gcoin#swifttx-transactions](https://github.com/gcoin-Project/insight-api-gcoin#swifttx-transactions) 
+This mechanism has been integrated into Bitcore-Node-kaishen which allows for notification to be broadcast through Insight API in one of two ways:
+* WebSocket: [https://github.com/kaishen-Project/insight-api-kaishen#web-socket-api](https://github.com/kaishen-Project/insight-api-kaishen#web-socket-api) 
+* API: [https://github.com/kaishen-Project/insight-api-kaishen#swifttx-transactions](https://github.com/kaishen-Project/insight-api-kaishen#swifttx-transactions) 
 
 ####Command line option
 
@@ -27,13 +27,13 @@ When a wallet SwiftTX transaction is successfully locked a shell command provide
 
 Details pertaining to an observed "Transaction Lock" can also be retrieved through RPC, it’s important however to understand the underlying mechanism.
 
-By default, the gcoin Core daemon will launch using the following constant:
+By default, the kaishen Core daemon will launch using the following constant:
 
 ```
 static const int DEFAULT_SWIFTTX_DEPTH = 5;
 ```
 
-This value can be overridden by passing the following argument to the gcoin Core daemon:
+This value can be overridden by passing the following argument to the kaishen Core daemon:
 
 ```
 -swifttxdepth=<n>

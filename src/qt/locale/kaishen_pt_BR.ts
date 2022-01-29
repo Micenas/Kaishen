@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your gcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços gcoin para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
+        <source>These are your kaishen addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços kaishen para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your gcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços gcoin para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your kaishen addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços kaishen para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>gcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
-        <translation>gcoin vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas PIEs de serem roubadas por malwares infectando seu computador.</translation>
+        <source>kaishen will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
+        <translation>kaishen vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas PIEs de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -235,7 +235,7 @@
         <translation>&amp;Encriptação BIP 38</translation>
     </message>
     <message>
-        <source>Enter a gcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a kaishen Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Insira um endereço que você deseja criptografar usando a BIP 38. Insira a palavra-chave na caixa do meio. Pressione criptografar para computar a chave privada criptografada.</translation>
     </message>
     <message>
@@ -243,8 +243,8 @@
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The gcoin address to sign the message with</source>
-        <translation>O endereço gcoin para assinar a mensagem</translation>
+        <source>The kaishen address to sign the message with</source>
+        <translation>O endereço kaishen para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this gcoin address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço gcoin</translation>
+        <source>Sign the message to prove you own this kaishen address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço kaishen</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -291,12 +291,12 @@
         <translation>Limpar &amp;Tudo</translation>
     </message>
     <message>
-        <source>The gcoin address the message was signed with</source>
-        <translation>O endereço gcoin que assinou a mensagem</translation>
+        <source>The kaishen address the message was signed with</source>
+        <translation>O endereço kaishen que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified gcoin address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço gcoin especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified kaishen address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço kaishen especificado.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -586,16 +586,16 @@
         <translation>Ferramentas de abas</translation>
     </message>
     <message>
-        <source>gcoin Core</source>
-        <translation>gcoin Core</translation>
+        <source>kaishen Core</source>
+        <translation>kaishen Core</translation>
     </message>
     <message>
-        <source>Send coins to a gcoin address</source>
-        <translation>Enviar moedas para um endereço gcoin</translation>
+        <source>Send coins to a kaishen address</source>
+        <translation>Enviar moedas para um endereço kaishen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and gcoin: URIs)</source>
-        <translation>Requisitar pagamentos (gera códigos QR e gcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and kaishen: URIs)</source>
+        <translation>Requisitar pagamentos (gera códigos QR e kaishen: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -606,24 +606,24 @@
         <translation>Procurar masternodes</translation>
     </message>
     <message>
-        <source>&amp;About gcoin Core</source>
-        <translation>&amp;Sobre o gcoin Core</translation>
+        <source>&amp;About kaishen Core</source>
+        <translation>&amp;Sobre o kaishen Core</translation>
     </message>
     <message>
-        <source>Show information about gcoin Core</source>
-        <translation>Mostra informação sobre o gcoin Core</translation>
+        <source>Show information about kaishen Core</source>
+        <translation>Mostra informação sobre o kaishen Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for gcoin</source>
-        <translation>Modificar opções de configuração para gcoin</translation>
+        <source>Modify configuration options for kaishen</source>
+        <translation>Modificar opções de configuração para kaishen</translation>
     </message>
     <message>
-        <source>Sign messages with your gcoin addresses to prove you own them</source>
-        <translation>Assine mensagens com seus endereços gcoin para provar que você os detém</translation>
+        <source>Sign messages with your kaishen addresses to prove you own them</source>
+        <translation>Assine mensagens com seus endereços kaishen para provar que você os detém</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified gcoin addresses</source>
-        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços gcoin especificados</translation>
+        <source>Verify messages to ensure they were signed with specified kaishen addresses</source>
+        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços kaishen especificados</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -654,8 +654,8 @@
         <translation>Abrir arquivo de configuração de Masternode</translation>
     </message>
     <message>
-        <source>Open a gcoin: URI or payment request</source>
-        <translation>Abrir um gcoin: URI ou requisição de pagamento</translation>
+        <source>Open a kaishen: URI or payment request</source>
+        <translation>Abrir um kaishen: URI ou requisição de pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -666,12 +666,12 @@
         <translation>Janela de exploração de blocos</translation>
     </message>
     <message>
-        <source>Show the gcoin Core help message to get a list with possible gcoin command-line options</source>
-        <translation>Mostra a ajuda da gcoin Core para receber uma lista com possíveis opções de linha de comando gcoin</translation>
+        <source>Show the kaishen Core help message to get a list with possible kaishen command-line options</source>
+        <translation>Mostra a ajuda da kaishen Core para receber uma lista com possíveis opções de linha de comando kaishen</translation>
     </message>
     <message>
-        <source>gcoin Core client</source>
-        <translation>Cliente Core gcoin</translation>
+        <source>kaishen Core client</source>
+        <translation>Cliente Core kaishen</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -806,8 +806,8 @@ MultiSend: %1</translation>
         <translation>Rótulo</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (gcoin.conf).</source>
-        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (gcoin.conf). </translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (kaishen.conf).</source>
+        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (kaishen.conf). </translation>
     </message>
 </context>
 <context>
@@ -1095,8 +1095,8 @@ MultiSend: %1</translation>
         <translation>Editar endereço remetente</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid gcoin address.</source>
-        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de gcoin</translation>
+        <source>The entered address "%1" is not a valid kaishen address.</source>
+        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de kaishen</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1141,16 +1141,16 @@ MultiSend: %1</translation>
         <translation>versão</translation>
     </message>
     <message>
-        <source>gcoin Core</source>
-        <translation>gcoin Core</translation>
+        <source>kaishen Core</source>
+        <translation>kaishen Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About gcoin Core</source>
-        <translation>Sobre o gcoin Core</translation>
+        <source>About kaishen Core</source>
+        <translation>Sobre o kaishen Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1184,16 +1184,16 @@ MultiSend: %1</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to gcoin Core.</source>
-        <translation>Bem-vindo ao gcoin Core.</translation>
+        <source>Welcome to kaishen Core.</source>
+        <translation>Bem-vindo ao kaishen Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where gcoin Core will store its data.</source>
-        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde gcoin Core vai armazenar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where kaishen Core will store its data.</source>
+        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde kaishen Core vai armazenar os seus dados.</translation>
     </message>
     <message>
-        <source>gcoin Core will download and store a copy of the gcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>gcoin Core vai baixar e armazenar uma cópia da blockchain gcoin. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+        <source>kaishen Core will download and store a copy of the kaishen block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>kaishen Core vai baixar e armazenar uma cópia da blockchain kaishen. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1204,8 +1204,8 @@ MultiSend: %1</translation>
         <translation>Usar um diretório personalizado de dados:</translation>
     </message>
     <message>
-        <source>gcoin Core</source>
-        <translation>gcoin Core</translation>
+        <source>kaishen Core</source>
+        <translation>kaishen Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1492,16 +1492,16 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Configuração de ofuscação</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening gcoin's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela gcoin's.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening kaishen's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela kaishen's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening gcoin's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela gcoin's.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening kaishen's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela kaishen's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening gcoin's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela gcoin's.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening kaishen's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela kaishen's.</translation>
     </message>
 </context>
 <context>
@@ -1554,8 +1554,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>C&amp;arteira</translation>
     </message>
     <message>
-        <source>Automatically open the gcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente gcoin no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
+        <source>Automatically open the kaishen client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente kaishen no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1574,12 +1574,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start gcoin after logging in to the system.</source>
-        <translation>Iniciar automaticamente gcoin depois de logar no sistema.</translation>
+        <source>Automatically start kaishen after logging in to the system.</source>
+        <translation>Iniciar automaticamente kaishen depois de logar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start gcoin on system login</source>
-        <translation>&amp;Iniciar gcoin ao logar no sistema</translation>
+        <source>&amp;Start kaishen on system login</source>
+        <translation>&amp;Iniciar kaishen ao logar no sistema</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
@@ -1590,8 +1590,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Rodadas de ofuscação para usar</translation>
     </message>
     <message>
-        <source>Amount of gcoin to keep anonymized</source>
-        <translation>Quantidade de gcoin a manter anônima</translation>
+        <source>Amount of kaishen to keep anonymized</source>
+        <translation>Quantidade de kaishen a manter anônima</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1606,18 +1606,18 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting gcoin.</source>
-        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do gcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting kaishen.</source>
+        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do kaishen.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/gcoin-project/gcoin-project-translations</source>
+https://www.transifex.com/kaishen-project/kaishen-project-translations</source>
         <translation>Linguagem não encontrada ou tradução incompleta? Ajude contribuido com traduções aqui:
-https://www.transifex.com/gcoin-project/gcoin-project-translations</translation>
+https://www.transifex.com/kaishen-project/kaishen-project-translations</translation>
     </message>
     <message>
-        <source>Connect to the gcoin network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede gcoin através de um proxy SOCKS5</translation>
+        <source>Connect to the kaishen network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede kaishen através de um proxy SOCKS5</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1755,8 +1755,8 @@ https://www.transifex.com/gcoin-project/gcoin-project-translations</translation>
         <translation>Fundos</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the gcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede gcoin após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the kaishen network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede kaishen após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1966,8 +1966,8 @@ https://www.transifex.com/gcoin-project/gcoin-project-translations</translation>
         <translation>Quantidade</translation>
     </message>
     <message>
-        <source>Enter a gcoin address (e.g. %1)</source>
-        <translation>Insira um endereço gcoin (e.g. %1)</translation>
+        <source>Enter a kaishen address (e.g. %1)</source>
+        <translation>Insira um endereço kaishen (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2216,8 +2216,8 @@ https://www.transifex.com/gcoin-project/gcoin-project-translations</translation>
         <translation>saída:</translation>
     </message>
     <message>
-        <source>Welcome to the gcoin RPC console.</source>
-        <translation>Bem-vindo ao console da gcoin RPC</translation>
+        <source>Welcome to the kaishen RPC console.</source>
+        <translation>Bem-vindo ao console da kaishen RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2520,8 +2520,8 @@ https://www.transifex.com/gcoin-project/gcoin-project-translations</translation>
         <translation>Se a taxa padrão estiver definida para 1000 uPIEs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uPIEs em taxa,&lt;br /&gt; pagará pelo menos 1000 uPIEs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for gcoin transactions than the network can process.</source>
-        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de gcoin do que a rede pode processar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for kaishen transactions than the network can process.</source>
+        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de kaishen do que a rede pode processar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2608,8 +2608,8 @@ https://www.transifex.com/gcoin-project/gcoin-project-translations</translation>
         <translation>fundos anônimos</translation>
     </message>
     <message>
-        <source>Warning: Invalid gcoin address</source>
-        <translation>Aviso: endereço gcoin inválido</translation>
+        <source>Warning: Invalid kaishen address</source>
+        <translation>Aviso: endereço kaishen inválido</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2703,8 +2703,8 @@ https://www.transifex.com/gcoin-project/gcoin-project-translations</translation>
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The gcoin address to send the payment to</source>
-        <translation>O endereço gcoin para enviar o pagamento</translation>
+        <source>The kaishen address to send the payment to</source>
+        <translation>O endereço kaishen para enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2766,8 +2766,8 @@ https://www.transifex.com/gcoin-project/gcoin-project-translations</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>gcoin Core is shutting down...</source>
-        <translation>gcoin Core está desligando...</translation>
+        <source>kaishen Core is shutting down...</source>
+        <translation>kaishen Core está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2785,8 +2785,8 @@ https://www.transifex.com/gcoin-project/gcoin-project-translations</translation>
         <translation>&amp;Assinar mensagem</translation>
     </message>
     <message>
-        <source>The gcoin address to sign the message with</source>
-        <translation>O endereço gcoin para assinar a mensagem</translation>
+        <source>The kaishen address to sign the message with</source>
+        <translation>O endereço kaishen para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2817,16 +2817,16 @@ https://www.transifex.com/gcoin-project/gcoin-project-translations</translation>
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this gcoin address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço gcoin</translation>
+        <source>Sign the message to prove you own this kaishen address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço kaishen</translation>
     </message>
     <message>
-        <source>The gcoin address the message was signed with</source>
-        <translation>O endereço gcoin que assinou a mensagem</translation>
+        <source>The kaishen address the message was signed with</source>
+        <translation>O endereço kaishen que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified gcoin address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço gcoin especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified kaishen address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço kaishen especificado.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2908,8 +2908,8 @@ https://www.transifex.com/gcoin-project/gcoin-project-translations</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>gcoin Core</source>
-        <translation>gcoin Core</translation>
+        <source>kaishen Core</source>
+        <translation>kaishen Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2924,8 +2924,8 @@ https://www.transifex.com/gcoin-project/gcoin-project-translations</translation>
         <translation>Os desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>The gcoin Core developers</source>
-        <translation>Os desenvolvedores do gcoin Core</translation>
+        <source>The kaishen Core developers</source>
+        <translation>Os desenvolvedores do kaishen Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3452,14 +3452,14 @@ https://www.transifex.com/gcoin-project/gcoin-project-translations</translation>
     </message>
 </context>
 <context>
-    <name>gcoin-core</name>
+    <name>kaishen-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all gcoin specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionalidades específicas gcoin (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
+        <source>Disable all kaishen specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionalidades específicas kaishen (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
     </message>
     <message>
         <source>Enable use of automated obfuscation for funds stored in this wallet (0-1, default: %u)</source>
@@ -3522,8 +3522,8 @@ https://www.transifex.com/gcoin-project/gcoin-project-translations</translation>
         <translation>Aviso: -paytxfee está definido como muito alto! Está e a taxa de transação que você irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong gcoin Core will not work properly.</source>
-        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core gcoin não vai funcionar corretamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong kaishen Core will not work properly.</source>
+        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core kaishen não vai funcionar corretamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3602,8 +3602,8 @@ https://www.transifex.com/gcoin-project/gcoin-project-translations</translation>
         <translation>Todos os direitos reservados (C) 2014-%i aos Desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The gcoin Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do gcoin Core</translation>
+        <source>Copyright (C) 2015-%i The kaishen Core Developers</source>
+        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do kaishen Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3654,8 +3654,8 @@ https://www.transifex.com/gcoin-project/gcoin-project-translations</translation>
         <translation>Erro no carregamento da wallet.dat: Carteira corrompida</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of gcoin Core</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da gcoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of kaishen Core</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da kaishen Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4142,8 +4142,8 @@ https://www.transifex.com/gcoin-project/gcoin-project-translations</translation>
         <translation>Carteira está travada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart gcoin Core to complete</source>
-        <translation>A carteira precisa ser reescrita: reinicia o gcoin Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart kaishen Core to complete</source>
+        <translation>A carteira precisa ser reescrita: reinicia o kaishen Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>

@@ -1,39 +1,39 @@
-gcoin Core
+kaishen Core
 =====================
 
 Setup
 ---------------------
-[gcoin Core](http://gcoin.org/wallet) is the original gcoin client and it builds the backbone of the network. However, it downloads and stores the entire history of gcoin transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[kaishen Core](http://kaishen.org/wallet) is the original kaishen client and it builds the backbone of the network. However, it downloads and stores the entire history of kaishen transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run gcoin on your native platform.
+The following are some helpful notes on how to run kaishen on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- bin/32/gcoin-qt (GUI, 32-bit) or bin/32/gcoind (headless, 32-bit)
-- bin/64/gcoin-qt (GUI, 64-bit) or bin/64/gcoind (headless, 64-bit)
+- bin/32/kaishen-qt (GUI, 32-bit) or bin/32/kaishend (headless, 32-bit)
+- bin/64/kaishen-qt (GUI, 64-bit) or bin/64/kaishend (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run gcoin-qt.exe.
+Unpack the files into a directory, and then run kaishen-qt.exe.
 
 ### OSX
 
-Drag gcoin-Qt to your applications folder, and then run gcoin-Qt.
+Drag kaishen-Qt to your applications folder, and then run kaishen-Qt.
 
 ### Need Help?
 
-* See the documentation at the [gcoin Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
+* See the documentation at the [kaishen Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [gcoin Forum](http://forum.gcoin.org/).
-* Join one of our Slack groups [gcoin Slack Groups](https://gcoin.org/slack-logins/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [kaishen Forum](http://forum.kaishen.org/).
+* Join one of our Slack groups [kaishen Slack Groups](https://kaishen.org/slack-logins/).
 
 Building
 ---------------------
-The following are developer notes on how to build gcoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build kaishen on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +41,7 @@ The following are developer notes on how to build gcoin on your native platform.
 
 Development
 ---------------------
-The gcoin repo's [root README](https://github.com/gcoin-Project/gcoin/blob/master/README.md) contains relevant information on the development process and automated testing.
+The kaishen repo's [root README](https://github.com/kaishen-Project/kaishen/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -55,8 +55,8 @@ The gcoin repo's [root README](https://github.com/gcoin-Project/gcoin/blob/maste
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [gcoin](http://forum.gcoin.org/) forum.
-* Join the [gcoin-Dev](https://gcoin-dev.slack.com/) Slack group ([Sign-Up](https://gcoin-dev.herokuapp.com/)).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [kaishen](http://forum.kaishen.org/) forum.
+* Join the [kaishen-Dev](https://kaishen-dev.slack.com/) Slack group ([Sign-Up](https://kaishen-dev.herokuapp.com/)).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

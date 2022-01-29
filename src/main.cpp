@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The gcoin developers
+// Copyright (c) 2015-2017 The kaishen developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -41,7 +41,7 @@ using namespace boost;
 using namespace std;
 
 #if defined(NDEBUG)
-#error "gcoin cannot be compiled without assertions."
+#error "kaishen cannot be compiled without assertions."
 #endif
 
 /**
@@ -1615,27 +1615,27 @@ int64_t GetBlockValue(int nHeight)
     int64_t nSubsidy = 0;
 
     if (nHeight == 0) {
-        nSubsidy = 270000 * COIN;
+        nSubsidy = 32000000 * COIN;
     } else if (nHeight <= 10000 && nHeight >= 1) {
-        nSubsidy = 2.5 * COIN;
+        nSubsidy = 5 * COIN;
     } else if (nHeight <= 13000 && nHeight >= 10001) {
-        nSubsidy = 2.5 * COIN;
+        nSubsidy = 5 * COIN;
     } else if (nHeight <= 18000 && nHeight >= 13001) {
-        nSubsidy = 2.5 * COIN;
+        nSubsidy = 5 * COIN;
     } else if (nHeight <= 21000 && nHeight >= 18001) {
-        nSubsidy = 2.5 * COIN;
+        nSubsidy = 5 * COIN;
     } else if (nHeight <= 30000 && nHeight >= 21001) {
-        nSubsidy = 2.5 * COIN;
+        nSubsidy = 5 * COIN;
     } else if (nHeight <= 40000 && nHeight >= 30001) {
-        nSubsidy = 2.5 * COIN;
+        nSubsidy = 5 * COIN;
     } else if (nHeight <= 50000 && nHeight >= 40001) {
-        nSubsidy = 2.5 * COIN;
+        nSubsidy = 5 * COIN;
     } else if (nHeight <= 60000 && nHeight >= 50001) {
-        nSubsidy = 2.5 * COIN;
+        nSubsidy = 5 * COIN;
 	} else if (nHeight <= 70000 && nHeight >= 60001) {
-        nSubsidy = 2.5 * COIN;
+        nSubsidy = 5 * COIN;
     } else if (nHeight >= 70001) {
-        nSubsidy = 2.5 * COIN;
+        nSubsidy = 5 * COIN;
     } else {
         nSubsidy = 0 * COIN;
     }
@@ -2267,7 +2267,7 @@ static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck()
 {
-    RenameThread("gcoin-scriptch");
+    RenameThread("kaishen-scriptch");
     scriptcheckqueue.Thread();
 }
 
@@ -3362,7 +3362,7 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
                 nHeight = (*mi).second->nHeight + 1;
         }
 
-        // gcoin
+        // kaishen
         // It is entierly possible that we don't have enough data and this could fail
         // (i.e. the block could indeed be valid). Store the block for later consideration
         // but issue an initial reject message.

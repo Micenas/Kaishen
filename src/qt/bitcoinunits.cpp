@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The gcoin developers
+// Copyright (c) 2015-2017 The kaishen developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -41,11 +41,11 @@ QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
     case PIE:
-        return QString("GCN");
+        return QString("SHEN");
     case mPIE:
-        return QString("mGCN");
+        return QString("mSHEN");
     case uPIE:
-        return QString::fromUtf8("uGCN");
+        return QString::fromUtf8("uSHEN");
     default:
         return QString("???");
     }
@@ -56,22 +56,22 @@ QString BitcoinUnits::name(int unit)
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
         case PIE:
-            return QString("GCN");
+            return QString("SHEN");
         case mPIE:
-            return QString("mGCN");
+            return QString("mSHEN");
         case uPIE:
-            return QString::fromUtf8("μGCN");
+            return QString::fromUtf8("μSHEN");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
         case PIE:
-            return QString("tGCN");
+            return QString("tSHEN");
         case mPIE:
-            return QString("mtGCN");
+            return QString("mtSHEN");
         case uPIE:
-            return QString::fromUtf8("μtGCN");
+            return QString::fromUtf8("μtSHEN");
         default:
             return QString("???");
         }
@@ -83,22 +83,22 @@ QString BitcoinUnits::description(int unit)
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
         case PIE:
-            return QString("GCN");
+            return QString("SHEN");
         case mPIE:
-            return QString("Milli-GCN (1 / 1" THIN_SP_UTF8 "000)");
+            return QString("Milli-SHEN (1 / 1" THIN_SP_UTF8 "000)");
         case uPIE:
-            return QString("Micro-GCN (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            return QString("Micro-SHEN (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
         case PIE:
-            return QString("TestGCN");
+            return QString("TestSHEN");
         case mPIE:
-            return QString("Milli-TestGCN (1 / 1" THIN_SP_UTF8 "000)");
+            return QString("Milli-TestSHEN (1 / 1" THIN_SP_UTF8 "000)");
         case uPIE:
-            return QString("Micro-TestGCN (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            return QString("Micro-TestSHEN (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }

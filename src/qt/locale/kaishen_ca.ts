@@ -270,12 +270,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>gcoin Core</source>
-        <translation>gcoin Core</translation>
+        <source>kaishen Core</source>
+        <translation>kaishen Core</translation>
     </message>
     <message>
-        <source>&amp;About gcoin Core</source>
-        <translation>&amp;Sobre gcoin Core</translation>
+        <source>&amp;About kaishen Core</source>
+        <translation>&amp;Sobre kaishen Core</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -468,12 +468,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>gcoin Core</source>
-        <translation>gcoin Core</translation>
+        <source>kaishen Core</source>
+        <translation>kaishen Core</translation>
     </message>
     <message>
-        <source>About gcoin Core</source>
-        <translation>Sobre gcoin Core</translation>
+        <source>About kaishen Core</source>
+        <translation>Sobre kaishen Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -491,12 +491,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to gcoin Core.</source>
-        <translation>Benvingut a gcoin Core.</translation>
+        <source>Welcome to kaishen Core.</source>
+        <translation>Benvingut a kaishen Core.</translation>
     </message>
     <message>
-        <source>gcoin Core</source>
-        <translation>gcoin Core</translation>
+        <source>kaishen Core</source>
+        <translation>kaishen Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1048,8 +1048,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>gcoin Core</source>
-        <translation>gcoin Core</translation>
+        <source>kaishen Core</source>
+        <translation>kaishen Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1200,7 +1200,7 @@
     </message>
     </context>
 <context>
-    <name>gcoin-core</name>
+    <name>kaishen-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

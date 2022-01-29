@@ -1,32 +1,32 @@
-bin_PROGRAMS += qt/gcoin-qt
+bin_PROGRAMS += qt/kaishen-qt
 EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
-# gcoin qt core #
+# kaishen qt core #
 QT_TS = \
-  qt/locale/gcoin_bg.ts \
-  qt/locale/gcoin_ca.ts \
-  qt/locale/gcoin_cs.ts \
-  qt/locale/gcoin_da.ts \
-  qt/locale/gcoin_de.ts \
-  qt/locale/gcoin_en.ts \
-  qt/locale/gcoin_en_US.ts \
-  qt/locale/gcoin_es.ts \
-  qt/locale/gcoin_fi.ts \
-  qt/locale/gcoin_fr_FR.ts \
-  qt/locale/gcoin_it.ts \
-  qt/locale/gcoin_ja.ts \
-  qt/locale/gcoin_ko_KR.ts \
-  qt/locale/gcoin_nl.ts \
-  qt/locale/gcoin_pl.ts \
-  qt/locale/gcoin_pt.ts \
-  qt/locale/gcoin_pt_BR.ts \
-  qt/locale/gcoin_ro_RO.ts \
-  qt/locale/gcoin_ru.ts \
-  qt/locale/gcoin_sk.ts \
-  qt/locale/gcoin_sv.ts \
-  qt/locale/gcoin_uk.ts \
-  qt/locale/gcoin_zh_CN.ts \
-  qt/locale/gcoin_zh_TW.ts
+  qt/locale/kaishen_bg.ts \
+  qt/locale/kaishen_ca.ts \
+  qt/locale/kaishen_cs.ts \
+  qt/locale/kaishen_da.ts \
+  qt/locale/kaishen_de.ts \
+  qt/locale/kaishen_en.ts \
+  qt/locale/kaishen_en_US.ts \
+  qt/locale/kaishen_es.ts \
+  qt/locale/kaishen_fi.ts \
+  qt/locale/kaishen_fr_FR.ts \
+  qt/locale/kaishen_it.ts \
+  qt/locale/kaishen_ja.ts \
+  qt/locale/kaishen_ko_KR.ts \
+  qt/locale/kaishen_nl.ts \
+  qt/locale/kaishen_pl.ts \
+  qt/locale/kaishen_pt.ts \
+  qt/locale/kaishen_pt_BR.ts \
+  qt/locale/kaishen_ro_RO.ts \
+  qt/locale/kaishen_ru.ts \
+  qt/locale/kaishen_sk.ts \
+  qt/locale/kaishen_sv.ts \
+  qt/locale/kaishen_uk.ts \
+  qt/locale/kaishen_zh_CN.ts \
+  qt/locale/kaishen_zh_TW.ts
 
 QT_FORMS_UI = \
   qt/forms/addressbookpage.ui \
@@ -106,16 +106,16 @@ BITCOIN_MM = \
   qt/macnotificationhandler.mm
 
 QT_MOC = \
-  qt/gcoin.moc \
+  qt/kaishen.moc \
   qt/bitcoinamountfield.moc \
   qt/intro.moc \
   qt/overviewpage.moc \
   qt/rpcconsole.moc
 
-QT_QRC_CPP = qt/qrc_gcoin.cpp
-QT_QRC = qt/gcoin.qrc
-QT_QRC_LOCALE_CPP = qt/qrc_gcoin_locale.cpp
-QT_QRC_LOCALE = qt/gcoin_locale.qrc
+QT_QRC_CPP = qt/qrc_kaishen.cpp
+QT_QRC = qt/kaishen.qrc
+QT_QRC_LOCALE_CPP = qt/qrc_kaishen_locale.cpp
+QT_QRC_LOCALE = qt/kaishen_locale.qrc
 
 PROTOBUF_CC = qt/paymentrequest.pb.cc
 PROTOBUF_H = qt/paymentrequest.pb.h
@@ -229,12 +229,12 @@ RES_ICONS = \
   qt/res/icons/tx_input.png \
   qt/res/icons/tx_output.png \
   qt/res/icons/tx_mined.png \
-  qt/res/icons/unit_gcoin.png \
-  qt/res/icons/unit_mgcoin.png \
-  qt/res/icons/unit_ugcoin.png \
-  qt/res/icons/unit_tgcoin.png \
-  qt/res/icons/unit_tmgcoin.png \
-  qt/res/icons/unit_tugcoin.png
+  qt/res/icons/unit_kaishen.png \
+  qt/res/icons/unit_mkaishen.png \
+  qt/res/icons/unit_ukaishen.png \
+  qt/res/icons/unit_tkaishen.png \
+  qt/res/icons/unit_tmkaishen.png \
+  qt/res/icons/unit_tukaishen.png
 
 BITCOIN_QT_CPP = \
   qt/bitcoinaddressvalidator.cpp \
@@ -301,7 +301,7 @@ RES_IMAGES = \
   qt/res/images/about.png \
   qt/res/images/splash.png \
   qt/res/images/splash_testnet.png \
-  qt/res/images/gcoin_logo_horizontal.png \
+  qt/res/images/kaishen_logo_horizontal.png \
   qt/res/images/downArrow.png \
   qt/res/images/downArrow_small.png \
   qt/res/images/upArrow_small.png \
@@ -317,7 +317,7 @@ RES_CSS = \
 
 RES_MOVIES = $(wildcard $(srcdir)/qt/res/movies/spinner-*.png)
 
-BITCOIN_RC = qt/res/gcoin-qt-res.rc
+BITCOIN_RC = qt/res/kaishen-qt-res.rc
 
 BITCOIN_QT_INCLUDES = -I$(builddir)/qt -I$(srcdir)/qt -I$(srcdir)/qt/forms \
   -I$(builddir)/qt/forms
@@ -337,68 +337,68 @@ QT_FORMS_H=$(join $(dir $(QT_FORMS_UI)),$(addprefix ui_, $(notdir $(QT_FORMS_UI:
 # Most files will depend on the forms and moc files as includes. Generate them
 # before anything else.
 $(QT_MOC): $(QT_FORMS_H)
-$(qt_libbitcoinqt_a_OBJECTS) $(qt_gcoin_qt_OBJECTS) : | $(QT_MOC)
+$(qt_libbitcoinqt_a_OBJECTS) $(qt_kaishen_qt_OBJECTS) : | $(QT_MOC)
 
 #Generating these with a half-written protobuf header leads to wacky results.
 #This makes sure it's done.
 $(QT_MOC): $(PROTOBUF_H)
 $(QT_MOC_CPP): $(PROTOBUF_H)
 
-# gcoin-qt binary #
-qt_gcoin_qt_CPPFLAGS = $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
+# kaishen-qt binary #
+qt_kaishen_qt_CPPFLAGS = $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
   $(QT_INCLUDES) $(PROTOBUF_CFLAGS) $(QR_CFLAGS)
 
-qt_gcoin_qt_SOURCES = qt/gcoin.cpp
+qt_kaishen_qt_SOURCES = qt/kaishen.cpp
 if TARGET_DARWIN
-  qt_gcoin_qt_SOURCES += $(BITCOIN_MM)
+  qt_kaishen_qt_SOURCES += $(BITCOIN_MM)
 endif
 if TARGET_WINDOWS
-  qt_gcoin_qt_SOURCES += $(BITCOIN_RC)
+  qt_kaishen_qt_SOURCES += $(BITCOIN_RC)
 endif
-qt_gcoin_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
+qt_kaishen_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
 if ENABLE_WALLET
-qt_gcoin_qt_LDADD += $(LIBBITCOIN_WALLET)
+qt_kaishen_qt_LDADD += $(LIBBITCOIN_WALLET)
 endif
 if ENABLE_ZMQ
-qt_gcoin_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+qt_kaishen_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
-qt_gcoin_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBBITCOIN_UNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
+qt_kaishen_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBBITCOIN_UNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(LIBSECP256K1)
-qt_gcoin_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-qt_gcoin_qt_LIBTOOLFLAGS = --tag CXX
+qt_kaishen_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+qt_kaishen_qt_LIBTOOLFLAGS = --tag CXX
 
 #locale/foo.ts -> locale/foo.qm
 QT_QM=$(QT_TS:.ts=.qm)
 
 .SECONDARY: $(QT_QM)
 
-qt/gcoinstrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES)
+qt/kaishenstrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES)
 	@test -n $(XGETTEXT) || echo "xgettext is required for updating translations"
 	$(AM_V_GEN) cd $(srcdir); XGETTEXT=$(XGETTEXT) $(PYTHON) ../share/qt/extract_strings_qt.py $^
 
-translate: qt/gcoinstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
+translate: qt/kaishenstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
 	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/gcoin_en.ts
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/kaishen_en.ts
 
 $(QT_QRC_LOCALE_CPP): $(QT_QRC_LOCALE) $(QT_QM)
 	@test -f $(RCC)
 	@test -f $(@D)/$(<F) || cp -f $< $(@D)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name gcoin_locale $(@D)/$(<F) | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name kaishen_locale $(@D)/$(<F) | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
 $(QT_QRC_CPP): $(QT_QRC) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_CSS) $(RES_MOVIES) $(PROTOBUF_H)
 	@test -f $(RCC)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name gcoin $< | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name kaishen $< | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
 CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda qt/*.gcno
 
 CLEANFILES += $(CLEAN_QT)
 
-gcoin_qt_clean: FORCE
-	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_gcoin_qt_OBJECTS) qt/gcoin-qt$(EXEEXT) $(LIBBITCOINQT)
+kaishen_qt_clean: FORCE
+	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_kaishen_qt_OBJECTS) qt/kaishen-qt$(EXEEXT) $(LIBBITCOINQT)
 
-gcoin_qt : qt/gcoin-qt$(EXEEXT)
+kaishen_qt : qt/kaishen-qt$(EXEEXT)
 
 ui_%.h: %.ui
 	@test -f $(UIC)

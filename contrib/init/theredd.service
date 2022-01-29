@@ -1,19 +1,19 @@
 [Unit]
-Description=gcoin's distributed currency daemon
+Description=kaishen's distributed currency daemon
 After=network.target
 
 [Service]
-User=gcoin
-Group=gcoin
+User=kaishen
+Group=kaishen
 
 Type=forking
-PIDFile=/var/lib/gcoind/gcoind.pid
+PIDFile=/var/lib/kaishend/kaishend.pid
 
-ExecStart=/usr/bin/gcoind -daemon -pid=/var/lib/gcoind/gcoind.pid \
-          -conf=/etc/gcoin/gcoin.conf -datadir=/var/lib/gcoind
+ExecStart=/usr/bin/kaishend -daemon -pid=/var/lib/kaishend/kaishend.pid \
+          -conf=/etc/kaishen/kaishen.conf -datadir=/var/lib/kaishend
 
-ExecStop=-/usr/bin/gcoin-cli -conf=/etc/gcoin/gcoin.conf \
-         -datadir=/var/lib/gcoind stop
+ExecStop=-/usr/bin/kaishen-cli -conf=/etc/kaishen/kaishen.conf \
+         -datadir=/var/lib/kaishend stop
 
 Restart=always
 PrivateTmp=true

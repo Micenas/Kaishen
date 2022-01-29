@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both gcoind and gcoin-qt, to make it harder for attackers to
+ * for both kaishend and kaishen-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("gcoin Core");
+const std::string CLIENT_NAME("kaishen Core");
 
 /**
  * Client version number

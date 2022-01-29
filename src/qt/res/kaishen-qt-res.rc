@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "gcoin"
-            VALUE "FileDescription",    "gcoin Core (OSS GUI client for gcoin)"
+            VALUE "CompanyName",        "kaishen"
+            VALUE "FileDescription",    "kaishen Core (OSS GUI client for kaishen)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "gcoin-qt"
+            VALUE "InternalName",       "kaishen-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "gcoin-qt.exe"
-            VALUE "ProductName",        "gcoin Core"
+            VALUE "OriginalFilename",   "kaishen-qt.exe"
+            VALUE "ProductName",        "kaishen Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

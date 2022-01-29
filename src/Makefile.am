@@ -64,15 +64,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += gcoind
+  bin_PROGRAMS += kaishend
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += gcoin-cli gcoin-tx
+  bin_PROGRAMS += kaishen-cli kaishen-tx
 endif
 
 .PHONY: FORCE
-# gcoin core #
+# kaishen core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \
@@ -180,7 +180,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between gcoind and gcoin-qt
+# server: shared between kaishend and kaishen-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -224,7 +224,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between gcoind and gcoin-qt, but only linked
+# wallet: shared between kaishend and kaishen-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -295,7 +295,7 @@ univalue_libbitcoin_univalue_a_SOURCES = \
   univalue/univalue_escapes.h \
   univalue/univalue.h
 
-# common: shared between gcoind, and gcoin-qt and non-server tools
+# common: shared between kaishend, and kaishen-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   allocators.cpp \
@@ -351,7 +351,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between gcoin-cli and gcoin-qt
+# cli: shared between kaishen-cli and kaishen-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -361,7 +361,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-gcoind_LDADD = \
+kaishend_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -372,40 +372,40 @@ gcoind_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-gcoind_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+kaishend_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-gcoind_LDADD += libbitcoin_wallet.a
+kaishend_LDADD += libbitcoin_wallet.a
 endif
-gcoind_SOURCES = gcoind.cpp
+kaishend_SOURCES = kaishend.cpp
 #
 
 if TARGET_WINDOWS
-gcoind_SOURCES += gcoind-res.rc
+kaishend_SOURCES += kaishend-res.rc
 endif
 
-gcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-gcoind_CPPFLAGS = $(BITCOIN_INCLUDES)
-gcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+kaishend_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+kaishend_CPPFLAGS = $(BITCOIN_INCLUDES)
+kaishend_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# gcoin-cli binary #
-gcoin_cli_LDADD = \
+# kaishen-cli binary #
+kaishen_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
   $(SSL_LIBS) \
   $(CRYPTO_LIBS)
 
-gcoin_cli_SOURCES = \
-  gcoin-cli.cpp
+kaishen_cli_SOURCES = \
+  kaishen-cli.cpp
 
-gcoin_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
+kaishen_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 
-# gcoin-tx binary #
-gcoin_tx_LDADD = \
+# kaishen-tx binary #
+kaishen_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -414,15 +414,15 @@ gcoin_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-gcoin_tx_SOURCES = gcoin-tx.cpp
-gcoin_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+kaishen_tx_SOURCES = kaishen-tx.cpp
+kaishen_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-gcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+kaishen_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-gcoin_cli_SOURCES += gcoin-cli-res.rc
+kaishen_cli_SOURCES += kaishen-cli-res.rc
 endif
-gcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+kaishen_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

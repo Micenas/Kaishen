@@ -1,11 +1,11 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The gcoin developers
+// Copyright (c) 2015-2017 The kaishen developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/gcoin-config.h"
+#include "config/kaishen-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -75,11 +75,11 @@ void OptionsModel::Init()
     if (!settings.contains("nObfuscationRounds"))
         settings.setValue("nObfuscationRounds", 2);
 
-    if (!settings.contains("nAnonymizegcoinAmount"))
-        settings.setValue("nAnonymizegcoinAmount", 1000);
+    if (!settings.contains("nAnonymizekaishenAmount"))
+        settings.setValue("nAnonymizekaishenAmount", 1000);
 
     nObfuscationRounds = settings.value("nObfuscationRounds").toLongLong();
-    nAnonymizegcoinAmount = settings.value("nAnonymizegcoinAmount").toLongLong();
+    nAnonymizekaishenAmount = settings.value("nAnonymizekaishenAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", false);
@@ -154,8 +154,8 @@ void OptionsModel::Init()
 
     if (settings.contains("nObfuscationRounds"))
         SoftSetArg("-obfuscationrounds", settings.value("nObfuscationRounds").toString().toStdString());
-    if (settings.contains("nAnonymizegcoinAmount"))
-        SoftSetArg("-anonymizegcoinamount", settings.value("nAnonymizegcoinAmount").toString().toStdString());
+    if (settings.contains("nAnonymizekaishenAmount"))
+        SoftSetArg("-anonymizekaishenamount", settings.value("nAnonymizekaishenAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -166,7 +166,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in gcoin.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in kaishen.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())
@@ -235,8 +235,8 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return settings.value("nThreadsScriptVerif");
         case ObfuscationRounds:
             return QVariant(nObfuscationRounds);
-        case AnonymizegcoinAmount:
-            return QVariant(nAnonymizegcoinAmount);
+        case AnonymizekaishenAmount:
+            return QVariant(nAnonymizekaishenAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -345,10 +345,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             settings.setValue("nObfuscationRounds", nObfuscationRounds);
             emit obfuscationRoundsChanged(nObfuscationRounds);
             break;
-        case AnonymizegcoinAmount:
-            nAnonymizegcoinAmount = value.toInt();
-            settings.setValue("nAnonymizegcoinAmount", nAnonymizegcoinAmount);
-            emit anonymizegcoinAmountChanged(nAnonymizegcoinAmount);
+        case AnonymizekaishenAmount:
+            nAnonymizekaishenAmount = value.toInt();
+            settings.setValue("nAnonymizekaishenAmount", nAnonymizekaishenAmount);
+            emit anonymizekaishenAmountChanged(nAnonymizekaishenAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();

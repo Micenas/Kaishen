@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between gcoin-cli and gcoind)
- * of a given instance of the gcoin system.
+ * CBaseChainParams defines the base parameters (shared between kaishen-cli and kaishend)
+ * of a given instance of the kaishen system.
  */
 class CBaseChainParams
 {

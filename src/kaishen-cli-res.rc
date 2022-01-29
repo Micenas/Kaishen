@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "gcoin"
-            VALUE "FileDescription",    "gcoin-cli (OSS RPC client for gcoin)"
+            VALUE "CompanyName",        "kaishen"
+            VALUE "FileDescription",    "kaishen-cli (OSS RPC client for kaishen)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "gcoin-cli"
+            VALUE "InternalName",       "kaishen-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "gcoin-cli.exe"
-            VALUE "ProductName",        "gcoin-cli"
+            VALUE "OriginalFilename",   "kaishen-cli.exe"
+            VALUE "ProductName",        "kaishen-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

@@ -37,12 +37,12 @@
         <file alias="tx_input">res/icons/tx_input.png</file>
         <file alias="tx_output">res/icons/tx_output.png</file>
         <file alias="tx_inout">res/icons/tx_inout.png</file>
-        <file alias="unit_gcoin">res/icons/unit_gcoin.png</file>
-        <file alias="unit_mgcoin">res/icons/unit_mgcoin.png</file>
-        <file alias="unit_ugcoin">res/icons/unit_ugcoin.png</file>
-        <file alias="unit_tgcoin">res/icons/unit_tgcoin.png</file>
-        <file alias="unit_tmgcoin">res/icons/unit_tmgcoin.png</file>
-        <file alias="unit_tugcoin">res/icons/unit_tugcoin.png</file>
+        <file alias="unit_kaishen">res/icons/unit_kaishen.png</file>
+        <file alias="unit_mkaishen">res/icons/unit_mkaishen.png</file>
+        <file alias="unit_ukaishen">res/icons/unit_ukaishen.png</file>
+        <file alias="unit_tkaishen">res/icons/unit_tkaishen.png</file>
+        <file alias="unit_tmkaishen">res/icons/unit_tmkaishen.png</file>
+        <file alias="unit_tukaishen">res/icons/unit_tukaishen.png</file>
         <file alias="lock_closed">res/icons/lock_closed.png</file>
         <file alias="lock_open">res/icons/lock_open.png</file>
         <file alias="key">res/icons/key.png</file>
@@ -58,7 +58,7 @@
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
-        <file alias="gcoin_logo_horizontal">res/images/gcoin_logo_horizontal.png</file>
+        <file alias="kaishen_logo_horizontal">res/images/kaishen_logo_horizontal.png</file>
         <file alias="downArrow">res/images/downArrow.png</file>
         <file alias="downArrow_small">res/images/downArrow_small.png</file>
         <file alias="upArrow_small">res/images/upArrow_small.png</file>

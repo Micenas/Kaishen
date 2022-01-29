@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The gcoin developers
+// Copyright (c) 2015-2017 The kaishen developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -30,7 +30,7 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// gcoinMiner
+// kaishenMiner
 //
 
 //
@@ -114,8 +114,8 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
     txNew.vout[0].scriptPubKey = scriptPubKeyIn;
 
     CBlockIndex* prev = chainActive.Tip();
-    if(prev->nHeight <= 1) txNew.vout[0].nValue = 135000 * COIN;
-    if(prev->nHeight >= 2) txNew.vout[0].nValue = 2.5 * COIN;
+    if(prev->nHeight <= 1) txNew.vout[0].nValue = 16000000 * COIN;
+    if(prev->nHeight >= 2) txNew.vout[0].nValue = 5 * COIN;
 
     pblock->vtx.push_back(txNew);
     pblocktemplate->vTxFees.push_back(-1);   // updated at end
@@ -424,7 +424,7 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != chainActive.Tip()->GetBlockHash())
-            return error("gcoinMiner : generated block is stale");
+            return error("kaishenMiner : generated block is stale");
     }
 
     // Remove key from key pool
@@ -439,7 +439,7 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     // Process this block the same as if we had received it from another node
     CValidationState state;
     if (!ProcessNewBlock(state, NULL, pblock))
-        return error("gcoinMiner : ProcessNewBlock, block not accepted");
+        return error("kaishenMiner : ProcessNewBlock, block not accepted");
 
     return true;
 }
@@ -450,9 +450,9 @@ bool fGenerateBitcoins = false;
 
 void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
 {
-    LogPrintf("gcoinMiner started\n");
+    LogPrintf("kaishenMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("gcoin-miner");
+    RenameThread("kaishen-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
@@ -524,7 +524,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
             continue;
         }
 
-        LogPrintf("Running gcoinMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
+        LogPrintf("Running kaishenMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
             ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //

@@ -1,25 +1,25 @@
-# /etc/conf.d/gcoind: config file for /etc/init.d/gcoind
+# /etc/conf.d/kaishend: config file for /etc/init.d/kaishend
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/gcoin/gcoin.conf"
+#BITCOIND_CONFIGFILE="/etc/kaishen/kaishen.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/gcoind"
+#BITCOIND_PIDDIR="/var/run/kaishend"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/gcoind.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/kaishend.pid"
 
-# Where to write gcoind data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/gcoind"
+# Where to write kaishend data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/kaishend"
 
-# User and group to own gcoind process
-#BITCOIND_USER="gcoin"
-#BITCOIND_GROUP="gcoin"
+# User and group to own kaishend process
+#BITCOIND_USER="kaishen"
+#BITCOIND_GROUP="kaishen"
 
-# Path to gcoind executable
-#BITCOIND_BIN="/usr/bin/gcoind"
+# Path to kaishend executable
+#BITCOIND_BIN="/usr/bin/kaishend"
 
-# Nice value to run gcoind under
+# Nice value to run kaishend under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

@@ -402,46 +402,11 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1643421947;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 14957905;	
-		
-		const int SCRYPT_SCRATCHPAD_SIZE = 131072 + 63;
-
-          if (true && genesis.GetHash() != hashGenesisBlock)
-        //if(false)
-        {
-            printf("Searching for genesis block...\n");
-            // This will figure out a valid hash and Nonce if you're
-            // creating a different genesis block:
-            uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
-            uint256 thash;
-            char scratchpad[SCRYPT_SCRATCHPAD_SIZE];
-
-            while(true)
-            {
-                scrypt_1024_1_1_256_sp_generic(BEGIN(genesis.nVersion), BEGIN(thash), scratchpad);
-                if (thash <= hashTarget)
-                    break;
-                if ((genesis.nNonce & 0xFFF) == 0)
-                {
-                    printf("nonce %08X: hash = %s (target = %s)\n", genesis.nNonce, thash.ToString().c_str(), hashTarget.ToString().c_str());
-                }
-                ++genesis.nNonce;
-                if (genesis.nNonce == 0)
-                {
-                    printf("NONCE WRAPPED, incrementing time\n");
-                    ++genesis.nTime;
-                }
-            }
-            printf("block.nTime = %u \n", genesis.nTime);
-            printf("block.nNonce = %u \n", genesis.nNonce);
-            printf("block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-
-            }
-
+        genesis.nNonce = 15463059;	
 
         hashGenesisBlock = genesis.GetHash();
 
-        assert(hashGenesisBlock == uint256("0x801fe92b3ff1c40097a5aa15e57c0dd8a382d8138e610efde5b2b989ca8c2331"));
+        assert(hashGenesisBlock == uint256("0x154128310a983bc21c2eb854da15622e8baa78a7b3462d149e73e6a8657e4cf4"));
         //assert(genesis.hashMerkleRoot == uint256("0x83d7618987a3d26b2ad11364d08303f5da3e20e2c00be086d30c90c655cda808"));
 
         vSeeds.push_back(CDNSSeedData("66.29.144.164","66.29.144.164"));     // Primary DNS Seeder 
